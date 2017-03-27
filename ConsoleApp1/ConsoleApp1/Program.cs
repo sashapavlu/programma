@@ -8,8 +8,6 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static void Main(string[] args)
-        {
             static void ten()
             {
                 Console.WriteLine("Это программа которая показывает 10 чисел\nНажми Enter чтобы продолжить");
@@ -589,57 +587,57 @@ namespace ConsoleApp1
                 }
                 Console.ReadLine();
             }
-            static void Main(string[] args)
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Привет у тебя есть выбор из девяти прорамм.");
+            while (true)
             {
-                Console.WriteLine("Привет у тебя есть выбор из девяти прорамм.");
-                while (true)
+                Console.WriteLine("ГЛАВНОЕ МЕНЮ.");
+                Console.WriteLine("Введи: \n1 - программа которая считает от 1 до 10000.\n2 - программа которая стреляет себе в голову.\n3 - Конвертер валют.\n4 - Вопросы.\n5 - Вклад\n6 - Калькулятор\n7 - Казино\n8 - Города России\n9 - Программа которая показывает 10 чисел\nДругое - чтобы выйти.");
+                int prog = Int32.Parse(Console.ReadLine());
+                if (prog == 1)
                 {
-                    Console.WriteLine("ГЛАВНОЕ МЕНЮ.");
-                    Console.WriteLine("Введи: \n1 - программа которая считает от 1 до 10000.\n2 - программа которая стреляет себе в голову.\n3 - Конвертер валют.\n4 - Вопросы.\n5 - Вклад\n6 - Калькулятор\n7 - Казино\n8 - Города России\n9 - Программа которая показывает 10 чисел\nДругое - чтобы выйти.");
-                    int prog = Int32.Parse(Console.ReadLine());
-                    if (prog == 1)
-                    {
-                        mil();
-                    }
-                    else if (prog == 2)
-                    {
-                        rul();
-                    }
-                    else if (prog == 3)
-                    {
-                        val();
-                    }
-                    else if (prog == 4)
-                    {
-                        question();
-                    }
-                    else if (prog == 5)
-                    {
-                        cont();
-                    }
-                    else if (prog == 6)
-                    {
-                        calk();
-                    }
-                    else if (prog == 7)
-                    {
-                        cas();
-                    }
-                    else if (prog == 8)
-                    {
-                        city();
-                    }
-                    else if (prog == 9)
-                    {
-                        ten();
-                    }
-                    else
-                    {
-                        Console.WriteLine("Нажми Enter чтобы выйти.");
-                        break;
-                    }
+                    mil();
                 }
-                Console.ReadLine();
+                else if (prog == 2)
+                {
+                    rul();
+                }
+                else if (prog == 3)
+                {
+                    val();
+                }
+                else if (prog == 4)
+                {
+                    question();
+                }
+                else if (prog == 5)
+                {
+                    cont();
+                }
+                else if (prog == 6)
+                {
+                    calk();
+                }
+                else if (prog == 7)
+                {
+                    cas();
+                }
+                else if (prog == 8)
+                {
+                    city();
+                }
+                else if (prog == 9)
+                {
+                    ten();
+                }
+                else
+                {
+                    Console.WriteLine("Нажми Enter чтобы выйти.");
+                    break;
+                }
             }
+            Console.ReadLine();
+        }
     }
 }
