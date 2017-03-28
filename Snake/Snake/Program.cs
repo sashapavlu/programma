@@ -10,12 +10,12 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            Console.SetBufferSize( 150, 70 );
+            Console.SetBufferSize( 150, 40 );
 
             HorizontalLine upLine = new HorizontalLine(0, 148, 0, '+');
-            HorizontalLine downLine = new HorizontalLine(0, 148, 69, '+');
-            VerticilLine leftLine = new VerticilLine(0, 69, 0, '+');
-            VerticilLine rightLine = new VerticilLine(0, 69, 148, '+');
+            HorizontalLine downLine = new HorizontalLine(0, 148, 39, '+');
+            VerticilLine leftLine = new VerticilLine(0, 39, 0, '+');
+            VerticilLine rightLine = new VerticilLine(0, 39, 148, '+');
             upLine.Draw();
             downLine.Draw();
             leftLine.Draw();
