@@ -22,6 +22,19 @@ namespace Snake
             numlist.Add(2);
 
             int x = numlist[0];
+            int y = numlist[1];
+            int z = numlist[2];
+
+            foreach(int i in numlist)
+            {
+                Console.WriteLine(i);
+            }
+
+            numlist.RemoveAt(0);
+
+            List<Point> plist = new List<Point>();
+            plist.Add(p1);
+            plist.Add(p2);
 
             Console.ReadLine();
         }
