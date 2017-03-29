@@ -10,10 +10,10 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Text text = new Text("Привет!\nЭто калькулятор");
+            Text text = new Text("Калькулятор");
             while(true)
             {
-                int act = text.act("Выбери действие\n1 - плюс\n2 - минус\n3 - умножить\n4 - делить\n5 - a^2\n6 - a^3\n7 - a^4");
+                int act = text.act("Выбери действие\n1 - плюс\n2 - минус\n3 - умножить\n4 - делить");
                 int amountOfNumbers = text.AmountOfNumbers("Сколько чисел ты хочешь ввести");
                 Calculator calculator = new Calculator(act, amountOfNumbers);
                 int dicision = text.StopByDicision("1 - выйти, другое - продолжить");
