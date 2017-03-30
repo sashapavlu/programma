@@ -43,8 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculator.cs" />
+    <Compile Include="Divide.cs" />
     <Compile Include="Hello.cs" />
     <Compile Include="Minus.cs" />
+    <Compile Include="Multiply.cs" />
     <Compile Include="Plus.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

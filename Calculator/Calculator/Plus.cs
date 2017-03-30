@@ -16,6 +16,7 @@ namespace Calculator
             double numB = Double.Parse(Console.ReadLine());
             double answer = numA + numB;
             Console.WriteLine(numA + " + " + numB + " = " + answer);
+            AmountOfNumbers = AmountOfNumbers - 2;
             for (int i = 0; i < AmountOfNumbers; i++)
             {
                 numA = answer;

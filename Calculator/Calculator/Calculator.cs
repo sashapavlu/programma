@@ -20,7 +20,11 @@ namespace Calculator
             }
             else if (act == 3)
             {
-
+                Multiply multiply = new Multiply(AmountOfNumbers);
+            }
+            else if (act == 4)
+            {
+                Divide divide = new Divide(AmountOfNumbers);
             }
         }
     }
