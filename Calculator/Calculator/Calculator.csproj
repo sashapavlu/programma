@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculator.cs" />
+    <Compile Include="Degree.cs" />
     <Compile Include="Divide.cs" />
     <Compile Include="Hello.cs" />
     <Compile Include="Minus.cs" />
